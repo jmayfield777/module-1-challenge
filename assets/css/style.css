@@ -1,13 +1,16 @@
+/* Resets box model for all html elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Changes the background color of the body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* Gives the header a padding of 20px, a font of 'Trebuchet MS' with five fallback values, a background-color, and text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Gives the header h1 an inline-block display and changes the font-size to 48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the header h1 text */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Gives the nav bar a top padding, margin-right, pushes the text to the right with float, changes the font and font-size */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Removes the bullet points from the nav list items */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Gives the nav list items a display of inline-block and a left margin */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes the text color of the link elements and removes the default styling */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Changes the paragraph elements font-size */
 p {
     font-size: 16px;
 }
 
+/* Modifies the width, height, and bottom margin oof the hero class image element. Also normalizes the aspect ratio so the image does not stretch */
 .hero img {
     height: 800px;
     width: 100%;
@@ -57,22 +68,89 @@ p {
     object-fit: cover;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Gives the .content section element a width, changes the display to inline-block, and gives it a left margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Gives the .search-engine-optimization article elememt a bottom margin, padding, height, font, background-color, and text color */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Gives the .search-engine-optimization image element a max-height */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Gives the search-engine-optimization h2 element a bottom margin and changes the font-size */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Gives the .online-reputation-management article element a bottom margin, padding, height, changes the font, background-color, and text color */ 
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Gives the .online-reputation-management image element a max-height */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Gives the .online-reputation-management h2 element a bottom margin and changes the font-size */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Gives the .social-media-marketing article element a bottom margin, padding, height, changes the font, background-color, and text color */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Gives the .social-media-marketing image element a max-height */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Gives the .social-media-marketing h2 element a bottom margin and increases the font-size */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Pushes the img elements to the left side and gives it a right margin */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Pushes the img elements to the right side and gives it a left margin */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Gives the aside element a right margin, padding, pushes the aside below the section element and aligns it to the right with float. It also gives it a width, height, font, and background-color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,108 +162,64 @@ p {
     background-color: #2589bd;
 }
 
+/* Gives the .benefit-lead section element a bottom margin and changes the text color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Gives the benefit-lead h3 a bottom margin and aligns the text in the center */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Makes the benefit-lead img element a block element and gives it a margin and max-width */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Gives the benefit-brand section element a bottom margin and changes the text color */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Gives the benefit-brand h3 a bottom margin and center aligns the text */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Makes the .benefit-brand img element a block element, changes the margin, and gives it a max-width */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Gives the .benefit-cost section element a bottom margin and changes the text color */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Gives the benefit-cost h3 a bottom margin and aligns the text in the center */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Makes the benefit-cost img element a block element, changes the margin, and gives it a max-width */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Gives the footer padding, pushes it below the aside element, changes the font, and aligns the text in the center */
 .footer {
     padding: 30px;
     clear: both;
@@ -193,6 +227,7 @@ p {
     text-align: center;
 }
 
+/* Changes the footer h4 font-size */
 .footer h4 {
     font-size: 20px;
 }
